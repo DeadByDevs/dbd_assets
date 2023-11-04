@@ -1,5 +1,11 @@
-add src/config.rs with const DBD_OFFICIAL_API
+# dbd_assets
 
-then
+## how to set up the environment:
 
-cargo build && cargo run
+- add in src/config.rs:
+  pub const DBD_OFFICIAL_API: &'static str = ""
+
+## how to run the program:
+
+- cargo build
+- cargo run
